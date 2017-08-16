@@ -3,13 +3,16 @@
 
 ################# Port Numbers ################# START
 ### If executing the YML, you will use these ports http://ipv4address:portnumber
-# Port 8015   Muximux
-# Port 19999  NetData
-# Port 3579   OMBI
-# Port 8181   PlexPy
-# Port 9000   Portainer
-# Port 7878   Radarr
-# Port 8989   Sonarr
-# Port 8090   SABNZBD-TV
-# Port 8095   SABNZBD-Movies
+# Ports External/Internal
+# Port None:3349   MariaDB (external port for DB not needed and recommended)
+# Port 8015:8015   Muximux
+# Port 19999:8015  NetData
+# Port 3579:8015   OMBI
+# Port 32400:32400 Plex
+# Port 8181:8015   PlexPy
+# Port 9000:8015   Portainer
+# Port 7878:8015   Radarr
+# Port 8989:8989   Sonarr
+# Port 8090:8090   SABNZBD-TV
+# Port 8095:9095   SABNZBD-Movies
 ################# Port Numbers ################# END
